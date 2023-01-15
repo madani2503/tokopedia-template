@@ -1,0 +1,141 @@
+header {
+  img {
+    width: 160px;
+    height: 34px;
+  }
+}
+.register {
+  margin: 20px 0;
+  padding: 50px 50px 0;
+  .left-tittle {
+    font-size: 1.6em;
+    font-weight: 600;
+    color: var(--NN950, #212121);
+    margin-top: 30px;
+    margin-bottom: 8px;
+  }
+  .left-desc {
+    font-size: 0.9285714285714286rem;
+    line-height: 22px;
+    color: var(--NN600, #6d7588);
+
+    text-align: center;
+  }
+
+  .daftar {
+    background-color: var(--N75, #e5e7e9);
+    border: none;
+    border-radius: 8px;
+    color: var(--N400, #6c727c);
+    cursor: not-allowed;
+    display: block;
+    font-size: 1.1428571428571428rem;
+    height: 48px;
+    line-height: 32px;
+    outline: none;
+    position: relative;
+    padding: 0 16px;
+    text-indent: initial;
+    transition: background-color 300ms;
+    width: 100%;
+    margin: 16px 0;
+    font-weight: 700;
+  }
+
+  .akiran {
+    font-size: 0.8571428571428571rem;
+    line-height: 18px;
+  }
+  .goggle {
+    background-color: transparent;
+    border: 1px solid var(--N75, #e5e7e9);
+    border-radius: 8px;
+    color: var(--color-text-high, rgba(49, 53, 59, 0.96));
+    cursor: pointer;
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 1rem;
+    height: 40px;
+    line-height: 20px;
+    outline: none;
+    position: relative;
+    padding: 0px 16px;
+    width: 100%;
+  }
+
+  .goggle::before {
+    content: "";
+    display: block;
+    background-image: url(https://assets.tokopedia.net/assets-tokopedia-lite/v2/zeus/kratos/fb3aa32f.svg);
+    background-size: 20px;
+    width: 20px;
+    height: 20px;
+    float: left;
+  }
+
+  .conten {
+    margin-top: 0;
+  }
+
+  .conten::before {
+    content: "";
+    position: absolute;
+    border: 0.1px solid rgba(0, 0, 0, 0.12);
+    width: 120px;
+    left: 40px;
+    bottom: auto;
+    margin-top: 13px;
+  }
+  .conten::after {
+    content: "";
+    position: absolute;
+    border: 0.1px solid rgba(0, 0, 0, 0.12);
+    width: 120px;
+    right: 40px;
+    bottom: auto;
+    margin-top: 13px;
+  }
+  img {
+    width: 360px;
+    height: 303px;
+  }
+
+  .form {
+    border: 1px solid var(--N75, #e5e7e9);
+    border-radius: 3px;
+    box-shadow: 0 0 10px 0 rgb(0 0 0 / 10%);
+    padding: 24px 40px 32px;
+    // width: 400px;
+    // margin-left: 50px;
+    label {
+      font-weight: 400;
+      font-size: 0.8571428571428571rem;
+    }
+    h2 {
+      text-align: center;
+      margin: 0;
+      font-weight: 600;
+      font-size: 1.5rem;
+      color: rgba(0, 0, 0, 0.7);
+    }
+
+    p {
+      text-align: center;
+      color: rgba(0, 0, 0, 0.54);
+      font-size: 1rem;
+      span {
+        color: #03ac0e;
+      }
+    }
+  }
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  span {
+    margin-bottom: 100px;
+  }
+}
